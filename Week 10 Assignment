@@ -12,10 +12,25 @@ sum(rooms > 2, na.rm = TRUE)
 
 #2) Which function tells you the type of data the 'rooms' vector above contains?
 
-#The Question that is asked is kinda ambiguous as it doesnt specify what it really wants. If the function typeof(rooms) is used
+#The Question that is asked is kinda ambiguous as it doesnt specify what it really wants. If the function typeof(rooms) is used it will return as "double" since R stores numbers as double precision numbers. If the function mode(rooms) is used however it will show the way the data for "rooms" is stored in R which is in this case numerical. 
+#My Code ->
+
+mode(rooms)
+typeof(rooms)
+
+#<-
 
 
 #3) What is the result of running the median() function on the above 'rooms' vector?
+
+#If you run the median() function on the vector "rooms" it will return as NA as the vector contains "NA". If you want the median of the data "rooms" you will have to write the following code: mean(rooms, na.rm =TRUE)
+#My code ->
+
+median(rooms)
+mean(rooms, na.rm = TRUE)
+
+#<- 
+
 
 #4) In order to submit a screenshot of RStudio, do the following first: Inside your R Project (.Rproj), install the 'tidyverse' package and use the download.file() and read_csv() function to read the SAFI_clean.csv dataset into your R project as 'interviews' digital object (see instructions in https://datacarpentry.org/r-socialsci/setup.html and 'Starting with Data' section). Take a screenshot of your RStudio interface showing
 
