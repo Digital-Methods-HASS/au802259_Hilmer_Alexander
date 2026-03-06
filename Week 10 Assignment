@@ -32,12 +32,4 @@ mean(rooms, na.rm = TRUE)
 #<- 
 
 
-#4) In order to submit a screenshot of RStudio, do the following first: Inside your R Project (.Rproj), install the 'tidyverse' package and use the download.file() and read_csv() function to read the SAFI_clean.csv dataset into your R project as 'interviews' digital object (see instructions in https://datacarpentry.org/r-socialsci/setup.html and 'Starting with Data' section). Take a screenshot of your RStudio interface showing
 
-#a) the line of code you used to create the object 'interviews', incl. the output in the console,
-
-#b) the 'interviews' object in the "Environment" top right pane , and
-
-#c) the file structure of your R project in the bottom right "Files" pane.
-
-#Save the screenshot as a .png image and put it in your AUID_lastname_firstname repository inside the class Github organisation (www.github.com/Digital-Methods-HASS) or equivalent. Place here the URL leading to the screenshot in your repository.
